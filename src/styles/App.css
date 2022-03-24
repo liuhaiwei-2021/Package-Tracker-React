@@ -1,0 +1,51 @@
+/* all */
+* {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+/* html, body */
+html,
+body {
+  background: #ffffff;
+  margin: 0;
+}
+.main {
+  display: block;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.track-page-form {
+  padding: 100px 30px;
+  text-align: center;
+}
+.search-input-field {
+  display: block;
+  width: 100%;
+  height: 46px;
+  border: 2px solid transparent;
+  background-color: #55acee;
+  color: #fff;
+  border-radius: 36px;
+  box-shadow: 0 3px 8px 0 rgb(0 0 0 / 7%);
+  padding: 6px 32px;
+}
+#authCode {
+  margin-top: 16px;
+}
+.track-button {
+  width: 80%;
+  height: 46px;
+  margin-top: 24px;
+  border-radius: 36px;
+  border: 2px solid transparent;
+  color: #fff;
+  background-color: #55acee;
+  box-shadow: 0 3px 8px 0 rgb(0 0 0 / 7%);
+  padding: 6px 32px;
+}
