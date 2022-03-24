@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router-dom";
 //Project files
 import "../styles/Navigation.css";
 
@@ -6,16 +7,21 @@ function Navigation() {
     <div className="nav-bar">
       <div className="nav-container">
         <div>
-          <a className="navbar-link" href="#hero">
+          <Link className="navbar-link" to="/">
             <img className="logo" src="images/logo.png" alt="logo" />
-          </a>
+          </Link>
         </div>
 
         <ul className="navbar-items">
           <li className="nav-item">
-            <a className="nav-link" href="#about">
-              Track a package
-            </a>
+            <NavLink className="nav-link" to="/" exact="true">
+              Track
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/contact" exact="true">
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>

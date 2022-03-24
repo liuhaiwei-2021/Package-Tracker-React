@@ -1,7 +1,6 @@
 /* all */
 * {
-  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
-    "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000000;
   box-sizing: border-box;
 }
@@ -15,9 +14,11 @@ body {
 .main {
   display: block;
 }
-.container {
+.content {
+  display: block;
   width: 80%;
   margin: auto;
+  margin-top: 50px;
 }
 
 .track-page-form {

@@ -1,0 +1,18 @@
+.not-found {
+  text-align: center;
+}
+
+h1 {
+  padding: 16px;
+}
+
+button {
+  display: block;
+  width: 200px;
+  height: 44px;
+  margin: 48px auto;
+  border-radius: 100px;
+  border: 2px solid #5f8e44;
+  background-color: #fff;
+  text-transform: uppercase;
+}

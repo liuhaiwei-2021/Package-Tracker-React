@@ -1,36 +1,27 @@
+//NPM files
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Navigation from "./components/Navigation";
+import Contact from "./pages/Contact";
+import Track from "./pages/Track";
+import Footer from "./components/Footer";
+import NotFound from "./pages/NotFound";
 import "./styles/App.css";
 
 function App() {
   return (
     <div className="main">
-      <Navigation />
-      <div className="container">
-        <div className="track-page">
-          <form className="track-page-form" role="search">
-            <h3>Track your package</h3>
-            <p className="track-page-subtitle">
-              Are you expecting delivery of a package? Great! Enter your package
-              ID and phone number or zip code below to track your package.
-            </p>
-            <input
-              className="search-input-field"
-              id="parcelId"
-              type="search"
-              placeholder="Enter package ID"
-              required
-            />
-            <input
-              className="search-input-field"
-              id="authCode"
-              type="search"
-              placeholder="Enter phone no. or zip code"
-              required
-            />
-            <button className="track-button">Track your package</button>
-          </form>
+      <BrowserRouter>
+        <Navigation />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Track />} exact />
+            <Route path="/contact" element={<Contact />} exact />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </div>
-      </div>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

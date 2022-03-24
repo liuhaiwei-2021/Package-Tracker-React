@@ -1,0 +1,33 @@
+.contact {
+  text-align: center;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  /* display: inline-block; */
+  width: 300px;
+  text-align: start;
+  margin-top: 16px;
+  font-size: 12px;
+  table-layout: fixed;
+}
+table {
+  min-width: 100%;
+}
+td {
+  min-width: 100px;
+}
+
+th {
+  text-align: left;
+}
+
+.open {
+  color: green;
+}
+.telephone {
+  color: blue;
+}

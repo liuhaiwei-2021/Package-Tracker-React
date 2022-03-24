@@ -1,0 +1,22 @@
+.package-list {
+  margin-top: 58px;
+}
+
+.package-img {
+  border-radius: 50%;
+}
+.package-card {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  gap: 20px;
+  height: 180px;
+}
+.package-card div {
+  padding: 4px 4px 4px 4px;
+}
+.package-id {
+  font-weight: 700;
+}
+.package-status {
+  color: lightblue;
+}
