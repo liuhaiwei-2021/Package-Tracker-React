@@ -30,3 +30,13 @@ th {
 .telephone {
   color: #1976d2;
 }
+
+@media (min-width: 550px) {
+  table {
+    width: 300px;
+    text-align: start;
+    margin-top: 16px;
+    font-size: 18px;
+    table-layout: fixed;
+  }
+}
