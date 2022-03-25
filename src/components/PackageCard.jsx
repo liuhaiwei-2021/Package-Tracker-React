@@ -7,9 +7,7 @@ function PackageCard({ item }) {
       <div className="package-info">
         <div className="package-id">Package ID: {parcel_id}</div>
         <div className="package-status">{status}</div>
-        <div className="package-location">
-          Current Location: {location_name}
-        </div>
+        <div className="package-location">Location: {location_name}</div>
         <div className="package-eta">Estimated time of arrival: {etaInfo}</div>
         <div className="package-sender">Sender: {sender}</div>
         <div className="package-notes">Notes: {notes}</div>
