@@ -10,7 +10,7 @@ function PackageCard({ item }) {
         <div className="package-location">
           Current Location: {location_name}
         </div>
-        <div className="package-eta">Last update time: {etaInfo}</div>
+        <div className="package-eta">Estimated time of arrival: {etaInfo}</div>
         <div className="package-sender">Sender: {sender}</div>
       </div>
     </div>
