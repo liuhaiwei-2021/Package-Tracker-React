@@ -5,7 +5,7 @@ import PackageCards from "../components/PackageCards";
 import "../styles/Track.css";
 
 function Track() {
-  const url = "1https://my.api.mockaroo.com/insta-orders.json?key=e49e6840";
+  const url = "https://my.api.mockaroo.com/insta-orders.json?key=e49e6840";
   const [packages, setPackages] = useState([]);
   const [errorInfo, setError] = useState([]);
 
