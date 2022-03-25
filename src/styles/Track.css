@@ -21,3 +21,10 @@
 .package-status {
   color: #1976d2;
 }
+@media (max-width: 550px) {
+  .package-list {
+    margin-top: 58px;
+    margin-bottom: 50px;
+    font-size: small;
+  }
+}
