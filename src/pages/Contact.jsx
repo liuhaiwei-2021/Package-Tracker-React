@@ -1,9 +1,11 @@
+//project files
 import "../styles/Contact.css";
 
 function Contact() {
   return (
     <div className="contact">
       <h2>General questions</h2>
+
       <table className="customer-service">
         <tr>
           <th>Customer service</th>
@@ -37,6 +39,7 @@ function Contact() {
           <td className="telephone">+46 771 33 33 33 📞</td>
         </tr>
       </table>
+
       <table className="businesses">
         <tr>
           <th>Businesses</th>

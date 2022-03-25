@@ -1,10 +1,10 @@
 .contact {
-  text-align: center;
-  margin-top: 64px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  margin-top: 64px;
 }
 table {
   width: 300px;
@@ -12,9 +12,6 @@ table {
   margin-top: 16px;
   font-size: 12px;
   table-layout: fixed;
-}
-table {
-  min-width: 100%;
 }
 td {
   min-width: 100px;

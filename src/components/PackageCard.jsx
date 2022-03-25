@@ -1,6 +1,7 @@
 function PackageCard({ item }) {
   const { parcel_id, status, eta, sender, location_name, notes } = item;
   let etaInfo = eta.slice(0, 10) + " " + eta.slice(11, 19);
+
   return (
     <div className="package-card">
       <img className="package-img" src={`/images/${status}.png`} alt="icon" />

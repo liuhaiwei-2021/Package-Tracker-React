@@ -1,4 +1,6 @@
+//NPM packages
 import { Link } from "react-router-dom";
+//project files
 import "../styles/NotFound.css";
 
 function NotFound() {
