@@ -31,7 +31,7 @@ ul {
 }
 ul li a {
   text-decoration: none;
-  color: #55acee;
+  color: #1976d2;
   padding: 10px 20px;
   font-weight: bold;
 }
@@ -40,13 +40,11 @@ a:link {
   text-decoration: none;
 }
 a:hover {
-  color: #5f8e44;
+  color: #ffa800;
 }
 a:active {
-  color: #0f0c05;
+  color: #388e3c;
 }
-
-/* Mobile first queries */
 
 /* Larger than mobile */
 @media (max-width: 400px) {

@@ -7,7 +7,6 @@
   align-items: center;
 }
 table {
-  /* display: inline-block; */
   width: 300px;
   text-align: start;
   margin-top: 16px;
@@ -26,8 +25,8 @@ th {
 }
 
 .open {
-  color: green;
+  color: #388e3c;
 }
 .telephone {
-  color: blue;
+  color: #1976d2;
 }
