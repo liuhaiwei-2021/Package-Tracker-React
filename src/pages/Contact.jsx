@@ -3,7 +3,7 @@ import "../styles/Contact.css";
 function Contact() {
   return (
     <div className="contact">
-      <h3>General questions</h3>
+      <h2>General questions</h2>
       <table className="customer-service">
         <tr>
           <th>Customer service</th>
