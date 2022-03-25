@@ -22,6 +22,7 @@ function Contact() {
           <td className="email">service@instapcket.com</td>
         </tr>
       </table>
+
       <table className="home-deliveries">
         <tr>
           <th>Home deliveries</th>
