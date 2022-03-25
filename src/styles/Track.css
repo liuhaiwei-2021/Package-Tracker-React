@@ -13,7 +13,7 @@
   height: 180px;
 }
 .package-card div {
-  padding: 4px 4px 4px 4px;
+  padding: 4px;
 }
 .package-id {
   font-weight: 700;
@@ -26,5 +26,31 @@
     margin-top: 58px;
     margin-bottom: 50px;
     font-size: small;
+  }
+  .package-card div {
+    padding: 4px;
+  }
+  .package-card {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    gap: 15px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 414px) {
+  .package-list {
+    margin-top: 58px;
+    margin-bottom: 50px;
+    font-size: x-small;
+  }
+  .package-card div {
+    padding: 2px;
+  }
+  .package-card {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    gap: 10px;
+    height: 150px;
   }
 }
